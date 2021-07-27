@@ -10,7 +10,7 @@ variable "region" {
 variable "cluster_version" {
   description = "Kubernetes version to use for the EKS cluster."
   type        = string
-  default     = "1.17"
+  default     = "1.19"
 }
 
 variable "vault_user" {
